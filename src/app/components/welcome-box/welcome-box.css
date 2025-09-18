@@ -23,7 +23,7 @@ div {
   text-align: center;
 }
 
-#db {
+#downloadButton {
   width: 25%;
   height: 25%;
   background-color: #4CAF50;
@@ -31,13 +31,16 @@ div {
   cursor: pointer;
   margin: 10px;
   border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
-#db:hover {
+#downloadButton:hover {
   background-color: #5dd863;
 }
 
-#fb {
+#featuresButton {
   width: 25%;
   height: 25%;
   background-color: #E3B23C;
@@ -45,8 +48,11 @@ div {
   cursor: pointer;
   margin: 10px;
   border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
-#fb:hover {
+#featuresButton:hover {
   background-color: #ffcf5d;
 }
