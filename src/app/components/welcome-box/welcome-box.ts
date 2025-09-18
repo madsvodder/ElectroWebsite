@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-welcome-box',
   imports: [
     NgOptimizedImage
   ],
-  templateUrl: './navbar.html',
-  styleUrl: './navbar.css'
+  templateUrl: './welcome-box.html',
+  styleUrl: './welcome-box.css'
 })
-export class Navbar {
+export class WelcomeBox {
 
 }

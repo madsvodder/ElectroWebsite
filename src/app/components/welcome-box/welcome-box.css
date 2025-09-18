@@ -1,0 +1,52 @@
+div {
+  padding: 10px;
+}
+
+#screenshot {
+  filter: drop-shadow(10px 10px 20px black);
+  padding: 25px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+#header {
+  color: white;
+  text-align: center;
+}
+
+#paragraph {
+  color: #9CA3AF;
+  text-align: center;
+}
+
+#db {
+  width: 25%;
+  height: 25%;
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#db:hover {
+  background-color: #5dd863;
+}
+
+#fb {
+  width: 25%;
+  height: 25%;
+  background-color: #E3B23C;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#fb:hover {
+  background-color: #ffcf5d;
+}
