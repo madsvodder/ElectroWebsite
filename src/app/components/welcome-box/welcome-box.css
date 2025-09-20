@@ -5,6 +5,9 @@ div {
 #screenshot {
   filter: drop-shadow(10px 10px 20px black);
   padding: 25px;
+  width: 60%;
+  margin: auto;
+  display: block;
 }
 
 #buttons {
